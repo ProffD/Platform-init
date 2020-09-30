@@ -1,0 +1,75 @@
+{
+	"compilerOptions": {
+		"baseUrl": "C:/Users/Tshenolo/Documents/Retro Stuff/Capitec WhatsApp Solution/CapiFiles/platform",
+		"paths": {
+			// Alias for "src" folder in project.
+			"app/*": [
+				"C:/Users/Tshenolo/Documents/Retro Stuff/Capitec WhatsApp Solution/test/src/*"
+			],
+			// Aliases for modules within "core", "elements" and "components".
+			"platform/core": [
+				"index"
+			],
+			"platform/elements": [
+				"elements/index"
+			],
+			"platform/components": [
+				"components/index"
+			],
+			// Aliases for modules paths (DEPRECATED).
+			"platform/Auditer": [
+				"Auditer"
+			],
+			"platform/Configuration": [
+				"Configuration"
+			],
+			"platform/EventAggregator": [
+				"EventAggregator"
+			],
+			"platform/ExecutionContext": [
+				"ExecutionContext"
+			],
+			"platform/HttpClient": [
+				"HttpClient"
+			],
+			"platform/Logger": [
+				"Logger"
+			],
+			"platform/NavigationContext": [
+				"NavigationContext"
+			],
+			"platform/Platform": [
+				"Platform"
+			],
+			"platform/Router": [
+				"Router"
+			],
+			"platform/Security": [
+				"Security"
+			],
+			"platform/SecurityContext": [
+				"SecurityContext"
+			],
+			"platform/Utilities": [
+				"Utilities"
+			],
+			// Exposed Libraries
+			"chart.js": [
+				"../node_modules/chart.js"
+			],
+			"luxon": [
+				"../node_modules/luxon"
+			],
+			"rxjs": [
+				"../node_modules/rxjs"
+			],
+			"uuid": [
+				"../node_modules/uuid"
+			],
+		}
+	},
+	"include": [
+		"src/**/*",
+		"platform-web-components/src/elements/index"
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "version": "0.28.0",
+    "framework": "WebComponents",
+    "type": "desktop",
+    "app": "standalone",
+    "application": {
+        "name": "Loggie",
+        "title": "Loggie",
+        "version": "0.0.1",
+        "idp": {
+            "client": "ocwp-test-client"
+        }
+    }
+}
